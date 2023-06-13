@@ -1,5 +1,5 @@
 ﻿#Define path to .csv
 $path
-$values = Import-Csv -LiteralPath $path | Select-Object -ExpandProperty Salary -Unique
+$values = Import-Csv -LiteralPath $path | Select-Object -ExpandProperty <property> -Unique
 
-#Another example
+
